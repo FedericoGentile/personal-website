@@ -1,0 +1,18 @@
+.btn-circle.btn-sm {
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 24px;
+    text-align: center;
+    background-color: #149ddd;
+    color: white;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+}
+  
+

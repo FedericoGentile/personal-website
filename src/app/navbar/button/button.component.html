@@ -1,0 +1,4 @@
+<button (click)="symbol = changeSymbol(symbol)" type="button" class="btn btn-circle btn-sm d-block d-lg-none">
+    <i [ngClass]="symbol ? 'fas fa-bars fa-1x': 'fa-solid fa-xmark'"></i>
+</button>
+<app-sidebar [symbol]="symbol"></app-sidebar>
