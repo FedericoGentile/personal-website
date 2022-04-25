@@ -25,8 +25,11 @@ export class ButtonComponent implements OnInit {
     // xs (for phones - screens less than 768px wide)
   
     if (window.innerWidth >= 992) {
-      this.symbol = true;//md
-    } 
+      this.symbol = false;//md
+    }
+    else {
+      this.symbol = true;
+    }
   }
 
 }
