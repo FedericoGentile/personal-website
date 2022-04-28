@@ -13,5 +13,11 @@ export class SidebarComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  toHero(){
+    document.getElementById("hero")?.scrollIntoView({behavior:"smooth"});
+  }
+  toAbout(){
+    document.getElementById("about")?.scrollIntoView({behavior:"smooth"});
+  }
 
 }
