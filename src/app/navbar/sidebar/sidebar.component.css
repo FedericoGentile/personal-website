@@ -38,7 +38,7 @@
     display: inline-block;
     background: #212431;
     color: #fff;
-    line-height: 1;
+    line-height: 1.2;
     padding: 8px 0;
     margin-right: 4px;
     border-radius: 50%;
@@ -47,6 +47,7 @@
     height: 36px;
     transition: 0.3s;
   }
+  
   #header .profile .social-links a:hover {
     background: #149ddd;
     color: #fff;
@@ -65,4 +66,26 @@
     #main {
       margin-left: 0;
     }
+  }
+
+  ul {
+    list-style-type: none; /* Remove bullets */
+    padding-left: 25px; /* Remove padding */
+    margin: 0; /* Remove margins */
+    font-size: 18px;
+  }
+
+  .spanSpace{
+    padding-left: 15px;
+  }
+
+  li {
+    margin-top: 15px;
+  }
+
+  .nav-link {
+    color:white;
+  }
+  .nav-link:hover {
+    color:#149ddd;
   }

@@ -7,7 +7,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
 
-  public symbol: boolean = true;
+  public symbol: boolean = false;
   constructor() { }
 
   ngOnInit(): void {
