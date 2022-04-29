@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about/about.component';
 import { FactsComponent } from './facts/facts.component';
 import { SkillsComponent } from './skills/skills.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeroComponent,
     AboutComponent,
     FactsComponent,
-    SkillsComponent
+    SkillsComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
