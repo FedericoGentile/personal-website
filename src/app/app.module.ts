@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonComponent } from './navbar/button/button.component';
@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about/about.component';
 import { FactsComponent } from './facts/facts.component';
+import { SkillsComponent } from './skills/skills.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,14 @@ import { FactsComponent } from './facts/facts.component';
     FooterComponent,
     HeroComponent,
     AboutComponent,
-    FactsComponent
+    FactsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatProgressBarModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
