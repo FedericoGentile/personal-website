@@ -19,5 +19,11 @@ export class SidebarComponent implements OnInit {
   toAbout(){
     document.getElementById("about")?.scrollIntoView({behavior:"smooth"});
   }
+  toResume(){
+    document.getElementById("resume")?.scrollIntoView({behavior:"smooth"});
+  }
+  toPortfolio(){
+    document.getElementById("portfolio")?.scrollIntoView({behavior:"smooth"});
+  }
 
 }
