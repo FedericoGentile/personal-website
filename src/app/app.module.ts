@@ -13,6 +13,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ResumeComponent } from './resume/resume.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { BlockchainTutorialComponent } from './portfolio/blockchain-tutorial/blockchain-tutorial.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     FactsComponent,
     SkillsComponent,
     ResumeComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    BlockchainTutorialComponent
   ],
   imports: [
     BrowserModule,
