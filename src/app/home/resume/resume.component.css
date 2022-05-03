@@ -52,6 +52,12 @@
     border: 2px solid #1f5297;
   }
 
+  .download-button{
+    margin-top: 10px;
+    background-color: #173b6c;
+    color:white;
+  }
+
 @media (min-width: 1199px) {
     .resume {
       padding-left: 330px;

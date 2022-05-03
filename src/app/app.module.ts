@@ -15,6 +15,8 @@ import { ResumeComponent } from './home/resume/resume.component';
 import { PortfolioComponent } from './home/portfolio/portfolio.component';
 import { HomeComponent } from './home/home.component';
 import { BlockchaintutorialComponent } from './projects/blockchaintutorial/blockchaintutorial.component';
+import { ServicesComponent } from './home/services/services.component';
+import { ContactComponent } from './home/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { BlockchaintutorialComponent } from './projects/blockchaintutorial/block
     ResumeComponent,
     PortfolioComponent,
     HomeComponent,
-    BlockchaintutorialComponent
+    BlockchaintutorialComponent,
+    ServicesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
