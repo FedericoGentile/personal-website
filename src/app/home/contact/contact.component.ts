@@ -1,6 +1,7 @@
 import { Component  } from '@angular/core';
 import {Map, tileLayer, marker} from 'leaflet';
 import { icon, Marker } from 'leaflet';
+import { windowWhen } from 'rxjs';
 const iconRetinaUrl = 'assets/marker-icon-2x.png';
 const iconUrl = 'assets/marker-icon.png';
 const shadowUrl = 'assets/marker-shadow.png';
@@ -27,10 +28,9 @@ export class ContactComponent  {
   ngAfterViewInit(): void {
     const map = new Map('map').setView([48.2045015,16.3693725], 13);
     tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	  maxZoom: 5,
 	  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
-    marker([48.2045015,16.3693725]).addTo(map);
+    marker([48.2045015,16.3693725]).addTo(map).bindPopup("Hey you found an <a href=''>Easter egg</a>!");
   }
 
 }

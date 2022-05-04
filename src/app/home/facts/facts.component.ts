@@ -7,27 +7,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FactsComponent implements OnInit {
 
-  clientcount: number = 0;
-  clientcountstop: any = setInterval(()=>{
-    this.clientcount++;
-    if(this.clientcount == 4){
-      clearInterval(this.clientcountstop);
+  countrycount: number = 0;
+  countrycountstop: any = setInterval(()=>{
+    this.countrycount++;
+    if(this.countrycount == 4){
+      clearInterval(this.countrycountstop);
     }
   }, 10)
 
-  projectcount: number = 0;
-  projectcountstop: any = setInterval(()=>{
-    this.projectcount++;
-    if(this.projectcount == 50){
-      clearInterval(this.projectcountstop);
+  subscribercount: number = 0;
+  subscribercountstop: any = setInterval(()=>{
+    this.subscribercount++;
+    if(this.subscribercount == 500){
+      clearInterval(this.subscribercountstop);
     }
-  }, 10)
+  }, 1)
 
-  hourscount: number = 0;
-  hourscountstop: any = setInterval(()=>{
-    this.hourscount++;
-    if(this.hourscount == 120){
-      clearInterval(this.hourscountstop);
+  patentcount: number = 0;
+  patentcountstop: any = setInterval(()=>{
+    this.patentcount++;
+    if(this.patentcount == 1){
+      clearInterval(this.patentcountstop);
     }
   }, 1)
 
@@ -37,7 +37,7 @@ export class FactsComponent implements OnInit {
     if(this.awardscount == 4){
       clearInterval(this.awardscountstop);
     }
-  }, 10)
+  }, 40)
 
 
   constructor() { }

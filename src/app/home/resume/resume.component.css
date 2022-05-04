@@ -52,6 +52,13 @@
     border: 2px solid #1f5297;
   }
 
+  img {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+
   .download-button{
     margin-top: 10px;
     background-color: #173b6c;
