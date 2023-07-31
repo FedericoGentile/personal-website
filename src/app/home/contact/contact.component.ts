@@ -26,7 +26,7 @@ Marker.prototype.options.icon = iconDefault;
 export class ContactComponent  {
 
   ngAfterViewInit(): void {
-    const map = new Map('map').setView([48.2045015,16.3693725], 13);
+    const map = new Map('map').setView([47.8051402,13.0380744], 13);
     tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
