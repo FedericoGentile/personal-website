@@ -18,7 +18,7 @@ export class FactsComponent implements OnInit {
   subscribercount: number = 0;
   subscribercountstop: any = setInterval(()=>{
     this.subscribercount++;
-    if(this.subscribercount == 600){
+    if(this.subscribercount == 750){
       clearInterval(this.subscribercountstop);
     }
   }, 1)
